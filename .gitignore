@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor files
+.idea/
+*.swp
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.bak
+*.tmp
+*.temp
+*.out
+*.pid
+
+# Compiled files and executables
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# MacOS system files
+.DS_Store
+
+# Python egg files
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Static and media files (if applicable)
+staticfiles/
+media/
+
+# FastAPI-specific
+*.ini  # Configuration files (optional, if dynamically generated)
+*.lock  # Lock files for dependencies (e.g., Pipfile.lock, poetry.lock if not used)
+
+# Docker-related files (optional, if using Docker)
+docker-compose.override.yml
+*.tar

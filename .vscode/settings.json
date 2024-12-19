@@ -1,0 +1,26 @@
+{
+  // Use Black as the default formatter for Python files
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  // Automatically format on save
+  "editor.formatOnSave": true,
+
+  // Use Flake8 via the ms-python.flake8 extension for linting
+  "flake8.args": ["--max-line-length=80"],
+
+  // Show a vertical ruler at 79 characters (PEP 8 recommendation)
+  "editor.rulers": [80],
+
+  // Good editor practices
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Keep code wrapping off for clarity
+  "editor.wordWrap": "off",
+
+  // Consistent indentation (4 spaces)
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false
+}
